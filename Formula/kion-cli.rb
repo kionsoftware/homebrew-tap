@@ -4,11 +4,11 @@
 class KionCli < Formula
   desc "Kion on the command-line!"
   homepage "https://github.com/kionsoftware/kion-cli"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
-  url "https://github.com/kionsoftware/kion-cli/archive/v0.1.1.tar.gz"
-  sha256 "6c34457d51df948ccddfc74d8df5ffdf75bfad025a268948bd5c27ea5a386c15"
+  url "https://github.com/kionsoftware/kion-cli/archive/v0.2.0.tar.gz"
+  sha256 "3be9a74a5c6ab1c801ec56720a62f4133c9fb317147ada9d98fc4558646c858f"
   head "https://github.com/kionsoftware/kion-cli"
 
   depends_on "go" => :build
