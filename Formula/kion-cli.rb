@@ -13,7 +13,7 @@ class KionCli < Formula
 
   # latest release
   url "https://github.com/kionsoftware/kion-cli/archive/v0.10.0.tar.gz"
-  sha256 "78dc513073aca4a2426373542c0435f284a9735ba8677047273febbc5c557352"
+  sha256 "835a85edd633528367f5c407cc3cc8164305880fbce244e1bbd1a00b29e9801c"
 
   # build dependencies
   depends_on "go" => :build
@@ -32,7 +32,7 @@ class KionCli < Formula
       end
       system "go", "build", "-ldflags", "-X main.kionCliVersion=#{version}", "-o", "#{bin}/kion", "."
     end
-    man1.install "doc/kion.1"
+    man1.install(Dir[buildpath/"doc/man1/*"])
   end
 
   # test install
