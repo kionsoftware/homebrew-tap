@@ -5,15 +5,15 @@ class KionCli < Formula
   # formula metadata
   desc "Kion on the command-line!"
   homepage "https://github.com/kionsoftware/kion-cli"
-  version "0.16.0"
+  version "0.18.0"
   license "MIT"
 
   # nightly build, install with --HEAD
   head "https://github.com/kionsoftware/kion-cli"
 
   # latest release
-  url "https://github.com/kionsoftware/kion-cli/archive/v0.16.0.tar.gz"
-  sha256 "3ff627190ea1be7e4bfbfcd7ca389ce3c30844d5d75157b612b7b57c18281ff0"
+  url "https://github.com/kionsoftware/kion-cli/archive/v0.18.0.tar.gz"
+  sha256 "ac7527880fb291499ad06fc5eb7d7dab8ded214023408214f956c10f440b0296"
 
   # build dependencies
   depends_on "go" => :build
